@@ -1,0 +1,97 @@
+
+body{
+    height: 80%;
+
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img{
+    margin-top: 30px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+
+.content-container{
+ 
+    margin-left: 31%;
+    margin-top: 20px;
+}
+
+
+.content-container h2{
+   text-align: left;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 35px;
+
+}
+
+.content-container p{
+    width:60%;
+    font-size: 13px;
+    margin-top:-15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 18px;
+}
+
+.Preparation{
+    background-color: rgb(240, 223, 211);
+    border-radius: 12px;
+    width: 38%;
+    margin-left: 31%;
+    margin-top: 20px;
+    padding: 7px;
+}
+
+.Preparation h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 29px;
+    color:rgb(119, 46, 119);
+
+}
+
+.Ingredients h2 , .Instruction h2 ,.Nutrition h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color:rgb(212, 112, 17);
+}
+
+.Preparation ul{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 215%;
+    margin-left: 20px;
+}
+
+
+.Ingredients,.Nutrition,.Instruction{
+    margin-left: 31%;
+    margin-top: 20px;
+    padding: 7px;
+    line-height: 33px;
+    margin-bottom: -31px;
+
+}
+
+
+.Ingredients ul , .Instruction ol ,.Nutrition ol{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 33px;
+    margin-right: 26%;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 40%;
+    line-height: 50px;
+  }
+  
+
+
